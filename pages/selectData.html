@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- favicon -->
+    <link rel="icon" href="/img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="/style/style.css">
+
+    <title>Insert Data</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <!-- navbar -->
+        <section>
+            <nav class="nav">
+                <a href="/index.html">
+                    <div class="navLeft" id="navLeft">
+                        <!-- logo -->
+                        <img src="/img/logo light.png" alt="logo" class="logo">
+                        <img src="/img/logo dark.png" alt="logo" class="logo">
+                    </div>
+                </a>
+
+                <div class="navRight" id="navRight">
+                    <!-- darkmode -->
+                    <div id="darkmode" class="mode">
+                        <img src="/img/dark mode.png" alt="darkMode" class="img-fluid" onclick="darkmode(true)">
+                        <img src="/img/light mode.png" alt="lightMode" class="img-fluid" onclick="darkmode(false)">
+                    </div>
+
+
+
+                    <div id="github" class="github">
+                        <!-- github -->
+                        <a href="https://github.com/rezairfanwijaya/" class="mygithub">
+                            <img src="/img/github light.png" alt="githubLight" id="light">
+                            <img src="/img/github dark.png" alt="githubDark" id="dark">
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- navbar -->
+
+        <!-- content -->
+        <section class="content">
+            <div class="row" id="content">
+                <div class="col-12" id="myheader">
+                    <p class="content-tittle">Select Data From Table</p>
+                    <p class="content-date ">30 October 2021</p>
+                </div>
+
+                <div class="image-hero col-12" id="hero">
+                    <img src="/img/materi-selectData1.jpg" alt="hero" class="img-fluid">
+                </div>
+
+                <div class="content-desc col-12 " id="courses">
+                    <p>When you successfully enter all the data you have into the table (
+                        <a href="insertData.html">How to insert data</a> ) sometimes you want to know what data is already in the table. How do you know? It's very easy, you just type the command <span>select *from name_table</span> then all the data
+                        in the table will be displayed all</p>
+
+                    <img src="/img/materi-selectData2.png" alt="insertData" class="img-fluid">
+                </div>
+
+                <div class="content-desc col-12">
+                    <p>then what if you want to display certain data from a table? eg data name, color, price or whatever it is? The method is very simple, you only need to write the command <span>select column_name from table_name</span></p>
+                    <img src="/img/materi-selectData3.png" alt="insertData" class="img-fluid">
+                </div>
+
+            </div>
+        </section>
+        <!-- content -->
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer" id="footer">
+        <footer>
+            <p>Made With Love <span style="color: red; font-size: 1.3em;">&#9829</span></p>
+        </footer>
+    </div>
+    <!-- Footer -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- js External -->
+    <script src="/js/scripts.js "></script>
+
+
+
+
+</body>
+
+</html>
